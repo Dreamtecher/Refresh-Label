@@ -1,4 +1,4 @@
-# Refresh-Label
+# 动态刷新chrome浏览器中SVG图形的标签数据
 
   项目中要求实现自动刷新chrome浏览器中SVG图形中的标签，
   由于真正的服务还没能开启，所以自己根据html页面中SVG标签的ID生成JSON文件作为模拟数据源

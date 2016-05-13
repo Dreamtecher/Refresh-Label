@@ -5,7 +5,7 @@
   生成JSON文件的方式如下：</p>
   
   生成可执行文件: <br />
-  gcc data2Json.c -o data2Json   
+  <b>gcc data2Json.c -o data2Json   </b>
   
   index.html为要为其模拟数据源的HTML页面，data.json文件为生成的json格式数据源。<br />此过程可多次重复，生成多个json数据源文件:</br>
-  sh select.sh index.html | ./data2Json > data.json         
+  <b>sh select.sh index.html | ./data2Json > data.json         </b>

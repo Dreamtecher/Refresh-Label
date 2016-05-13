@@ -18,7 +18,7 @@
   此时node服务器开始提供刷新标签服务，服务端口3000<br />
   
   任何含有SVG图形的HTML页面均可采用此方法模拟动态刷新标签。
-  另外，在HTML页面的</body>元素前面需要添加：<br />
+  另外，在HTML页面的\</body>标签前面需要添加：<br />
   <b>\<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script></b><br />
   <b>\<script src="main.js"></script></b><br />
   

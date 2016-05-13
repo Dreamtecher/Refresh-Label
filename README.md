@@ -15,12 +15,17 @@
   
   接着启动node.js服务：<br />
   <b>node server.js</b><br />
-  此时node服务器开始提供刷新标签服务<br />
+  此时node服务器开始提供刷新标签服务，服务端口3000<br />
   
   任何含有SVG图形的HTML页面均可采用此方法模拟动态刷新标签。
   另外，在HTML页面的</body>元素前面需要添加：<br />
   <b>\<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script></b><br />
   <b>\<script src="main.js"></script></b><br />
   
+  最后，使用命令：<br />
+  <b>python -m SimpleHTTPServer 8888</b><br />
+  来开启本机的http服务，端口号为8888。<br />
+  
+  访问<b>localhost:8888</b>即可看到页面刷新。
   
   
